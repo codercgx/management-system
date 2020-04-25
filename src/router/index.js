@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import CreateArticle from '../views/CreateArticle.vue'
 import ListArticle from "../views/ListArticle.vue"
 import EditArticle from "../views/EditArticle.vue"
@@ -12,11 +11,6 @@ const routes = [
   {
     path: '/',
     redirect: '"/articles/index"'
-  },
-  {
-    path: '/home',
-    name: 'home',
-    component: Home
   },
   {
     path: '/articles/create',
